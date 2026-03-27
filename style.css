@@ -116,6 +116,10 @@ header  .navbar {
     border-radius: var(--border-radius-m);
     transition: 0.3s ease;
 }
+.navbar .nav-menu .nav-link {
+  color: #ffffff !important;
+  opacity: 1;
+}
 
 .navbar .nav-menu .nav-link:hover {
     color: var(--primary-color);
@@ -127,6 +131,19 @@ header  .navbar {
     display: none;
 }
 
+.hero-section .title,
+.hero-section .subtitle,
+.hero-section .description {
+  color: #ffffff;
+  opacity: 1;
+}
+.hero-section {
+  background-color: #41191f;
+}
+.hero-section .title,
+.hero-section .subtitle {
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
 .hero-section {
     min-height: 100vh;
     background: var(--primary-color);
