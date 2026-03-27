@@ -492,3 +492,30 @@ header  .navbar {
     flex-direction: column;
   }
 }
+/* EXTRA MOBILE POLISH */
+
+/* add spacing */
+section {
+  padding: 40px 15px;
+}
+
+/* center hero text properly */
+.hero-section .hero-details {
+  padding: 0 10px;
+}
+
+/* make images look clean */
+img {
+  border-radius: 10px;
+}
+
+/* add space between shop items */
+.shop-item {
+  margin-bottom: 20px;
+}
+
+/* fix navbar alignment */
+.navbar {
+  flex-direction: column;
+  gap: 10px;
+}
