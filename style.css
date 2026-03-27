@@ -438,4 +438,57 @@ header  .navbar {
         aspect-ratio: 1;
     }
 }
+/* MOBILE RESPONSIVE FIX */
+@media screen and (max-width: 768px) {
 
+  /* HERO SECTION */
+  .hero-section .section-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-section .hero-details .subtitle,
+  .hero-section .hero-details .description {
+    max-width: 100%;
+  }
+
+  .hero-section .hero-image-wrapper {
+    margin: 20px 0;
+  }
+
+  /* SHOP SECTION */
+  .shop-section .shop-list {
+    gap: 30px;
+  }
+
+  .shop-section .shop-list .shop-item {
+    width: 100%;
+  }
+
+  /* ABOUT SECTION */
+  .about-section .section-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-section .about-details {
+    max-width: 100%;
+  }
+
+  /* NAVBAR */
+  .navbar .nav-menu {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar .nav-link {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  /* CONTACT SECTION */
+  .contact-section .section-content {
+    flex-direction: column;
+  }
+}
