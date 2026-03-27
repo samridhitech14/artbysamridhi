@@ -549,3 +549,9 @@ img {
   opacity: 1 !important;
   text-shadow: 0 3px 10px rgba(0,0,0,0.6); /* THIS is the main fix */
 }
+.hero-section {
+  padding-top: 250px;
+}
+.hero-section .hero-details {
+  margin-top: 90px;
+}
